@@ -1,6 +1,7 @@
 
 import json
 import sys
+print(sys.argv)
 
 with open("google100.txt","r") as f:
     for pt in f.readlines() :    #逐行读入成字符串pt
